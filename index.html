@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short introduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="traveling.html">Travel Plan</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1 style="color:black"> Welcome to my website </h1>
+    <h2> About Myself</h3>
+
+        <p id="main"> My name is Vivian, and I am currently a <b> senior </b> at Northeastern University, set to <b>
+                graduate this May. </b> This semester, I am taking four classes: Machine Learning 2, Data Visualization,
+            Entrepreneurship and Startups, and Creating Value with AI. In addition to my coursework, I am a Teaching
+            Assistant for two innovation-focused classes, where I assist with grading assignments, exams, and homework.
+            <br>
+            <br>
+            Beyond academics, I am gaining hands-on experience as a <i> part-time Business Development Lead </i> at a
+            startup called Powerhouse. In this role, I am researching potential secondary markets that the company aims
+            to expand into beyond its initial target market. Alongside my studies and work, I am also actively job
+            searching for full-time opportunities in marketing, product management, or analytics.
+            <br>
+            <br>
+            After graduation, I will be going on a graduation trip with my friends. We plan to travel to Japan, Taiwan,
+            and Bali.
+            <br>
+            <br>
+            To learn more about my travel plans, click the button to proceed to the next page.
+        </p>
+        <br>
+        <div class="button-container">
+            <button id="button"> Check Out: Traveling Plans </button>
+            <script> const navigateButton = document.getElementById("button")
+                navigateButton.addEventListener("click", function () {
+                    window.location.href = "traveling.html"
+                })
+            </script>
+        </div>
+
+        <br>
+        <br>
+        <div class="pin">
+            <img src="https://t4.ftcdn.net/jpg/02/51/12/11/360_F_251121174_5xQyUCqSrkswyLHbM9Ne8DQ8Qb0o1HGw.jpg"
+                alt="Picture of Japan" class="pic" width="400">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/498000/498737-taiwan.jpg"
+                alt="Picture of Taiwan" class="pic" width="400">
+            <img src="https://media.cntraveler.com/photos/53dad095dcd5888e145ceb60/16:9/w_2560,c_limit/intercontinental-bali-resort-bali-indonesia-108733-1.jpg"
+                alt="Picture of Bali" class="pic" width="400">
+        </div>
+</body>
+
+</html>
