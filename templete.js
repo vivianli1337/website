@@ -1,3 +1,4 @@
+// author @vivian li
 // Load the data
 const socialMedia = d3.csv("socialMedia.csv");
 
